@@ -1,0 +1,15 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('first') {
+            steps {
+                function()
+            }
+        }
+    }
+    }
+
+ void function() {
+     sh '''echo "hello..! This is Generated Job Two.."'''
+ }
