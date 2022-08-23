@@ -29,4 +29,3 @@ for(p in pipelines) {
         }
         }
     }
-}
